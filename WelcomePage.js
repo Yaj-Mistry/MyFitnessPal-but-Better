@@ -1,20 +1,21 @@
 //Maintainace Calorie Set Up
-let bodyWeight = document.getElementsByName("bodyWeight");
+let bodyWeight = document.getElementById("bodyWeight");
+5.
 
-let height = document.getElementsByName("height");
+let height = document.getElementById("height");
 
-let age = document.getElementsByName("age");
+let age = document.getElementById("age");
 
 let gender = document.getElementById("gender");
 
 let OnSubmit = () => {
-    alert((10 * bodyWeight) + (6.25 * height) - (5 * age) + 5);
+    alert(10 * bodyWeight + 6.25 * height - 5 * age + 5);
 }
 
 
 //Formulas
 let maintainaceCal = () => {
-    let maintainaceCalM = (10 * bodyWeight) + (6.25 * height) - (5 * age) + 5;
+    let maintainaceCalM = 10 * bodyWeight + 6.25 * height - 5 * age + 5;
     return maintainaceCalM;
 }
 
